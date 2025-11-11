@@ -39,7 +39,7 @@ export default function RootLayout({
         <Script src="/lasy-bridge.js" strategy="beforeInteractive" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased font-inter bg-[#0D0F11] text-[#F2F2F2]`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased font-inter`}
       >
         <AuthProvider>
           <Navbar />
