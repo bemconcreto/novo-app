@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-import "../styles/theme.css"; // <-- adicionamos essa linha
+import "../styles/theme29.css"; // <-- adicionamos essa linha
 import "../lib/fonts";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { Navbar } from "@/components/custom/Navbar";
