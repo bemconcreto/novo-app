@@ -1,26 +1,21 @@
-:root {
-  --color-primary: #6B4A3E;   /* marrom institucional */
-  --color-secondary: #BFA89C; /* bege claro */
-  --color-dark: #0D0F11;      /* fundo escuro */
-  --color-light: #F2F2F2;     /* texto principal */
-  --color-accent: #12B76A;    /* verde de ação */
-  --color-muted: #A0A0A0;     /* texto secundário */
+:root{
+  --color-primary:#6B4A3E;
+  --color-secondary:#BFA89C;
+  --color-dark:#0D0F11;
+  --color-light:#F2F2F2;
+  --color-accent:#12B76A;
+  --color-muted:#A0A0A0;
 }
-
-body {
-  background-color: var(--color-dark);
-  color: var(--color-light);
-  font-family: 'Inter', sans-serif;
+body{
+  background-color:var(--color-dark);
+  color:var(--color-light);
+  font-family:'Inter',sans-serif;
 }
-
-button {
-  background-color: var(--color-primary);
-  color: var(--color-light);
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background 0.2s;
+button{
+  background-color:var(--color-primary);
+  color:var(--color-light);
+  border-radius:8px;
+  font-weight:500;
+  transition:background .2s;
 }
-
-button:hover {
-  background-color: #5B3C33;
-}
+button:hover{ background-color:#5B3C33; }
