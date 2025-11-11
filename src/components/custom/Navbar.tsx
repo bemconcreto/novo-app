@@ -13,7 +13,8 @@ import {
   History, 
   Settings,
   LogOut,
-  User
+  User,
+  Building2
 } from 'lucide-react'
 
 export function Navbar() {
@@ -22,6 +23,7 @@ export function Navbar() {
 
   const navigation = [
     { name: 'Dashboard', href: '/dashboard', icon: Home },
+    { name: 'Imóveis', href: '/imoveis', icon: Building2 },
     { name: 'Comprar', href: '/comprar', icon: ShoppingCart },
     { name: 'Vender', href: '/vender', icon: TrendingUp },
     { name: 'Histórico', href: '/transacoes', icon: History },
