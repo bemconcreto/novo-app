@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #6B4A3E;   /* marrom institucional */
+  --color-secondary: #BFA89C; /* bege claro */
+  --color-dark: #0D0F11;      /* fundo escuro */
+  --color-light: #F2F2F2;     /* texto principal */
+  --color-accent: #12B76A;    /* verde de ação */
+  --color-muted: #A0A0A0;     /* texto secundário */
+}
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-family: 'Inter', sans-serif;
+}
