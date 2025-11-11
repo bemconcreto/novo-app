@@ -12,3 +12,15 @@ body {
   color: var(--color-light);
   font-family: 'Inter', sans-serif;
 }
+
+button {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #5B3C33;
+}
