@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-import "@/styles/theme.css";
 // Import all available fonts for AI usage
 import "../lib/fonts";
 import { AuthProvider } from "@/contexts/AuthContext";
@@ -40,8 +39,8 @@ export default function RootLayout({
         <Script src="/lasy-bridge.js" strategy="beforeInteractive" />
       </head>
       <body
-  className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased font-inter bg-[#FAF9F8] text-[#2C2C2C]`}
->
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased font-inter bg-[#0D0F11] text-[#F2F2F2]`}
+      >
         <AuthProvider>
           <Navbar />
           {children}
